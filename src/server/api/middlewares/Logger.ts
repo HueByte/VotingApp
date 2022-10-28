@@ -2,7 +2,6 @@ import * as fs from 'fs';
 import * as path from 'path';
 import chalk, { Chalk } from 'chalk'
 
-
 class Log {
     public logPath: string;
     public currentDate: Date = new Date();
